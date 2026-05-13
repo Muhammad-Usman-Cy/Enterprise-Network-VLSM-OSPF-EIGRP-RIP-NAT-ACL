@@ -41,8 +41,6 @@ The network was built from scratch given only a private IP block (`27.128.22.25`
 
 The network contains **22 routers**, **11 LAN segments (A–K)**, and **23 point-to-point WAN links** using /30 subnets.
 
-![Topology](screenshots/topology.png)
-
 ## Routing Domains
 
 | Domain | Routers | Networks | Boundary Router |
@@ -144,16 +142,8 @@ Verification commands used: `show ip route`, `show ip ospf neighbor`, `show ip e
 ├── report/
 │   └── CN-Project-Report.pdf
 ├── packet-tracer/
-│   └── Enterprise-Network.pkt
-└── screenshots/
-    ├── topology.png
-    ├── ospf-routing-table-r3.png
-    ├── eigrp-routing-table-r9.png
-    ├── rip-routing-table-r20.png
-    ├── nat-translations-r20.png
-    ├── acl-block-test.png
-    ├── dhcp-pools.png
-    └── mail-server.png
+    └── Enterprise-Network.pkt
+
 ```
 
 ## How to Run
